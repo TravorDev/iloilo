@@ -1,6 +1,6 @@
 # Iloilo - Modern Financial Management Platform
 
-A robust and scalable financial management platform built with cutting-edge technologies to provide a seamless user experience for managing personal and business finances.
+A professional-grade financial management platform built with cutting-edge technologies to provide a seamless user experience for managing personal and business finances.
 
 ## 🚀 Features
 
@@ -22,31 +22,27 @@ A robust and scalable financial management platform built with cutting-edge tech
 - **Validation:** [Zod](https://zod.dev/)
 - **State Management:** [Zustand](https://zustand-demo.pmnd.rs/)
 
-## 📦 Installation
+## 📦 Development Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/TravorDev/iloilo.git
-   cd iloilo
-   ```
-
-2. Install dependencies:
+1. Ensure you have access to the repository and required credentials
+2. Clone the repository (requires authentication)
+3. Install dependencies:
    ```bash
    pnpm install
    ```
 
-3. Set up environment variables:
+4. Set up environment variables:
    ```bash
    cp .env.example .env.local
    ```
 
-4. Update `.env.local` with your Supabase credentials:
+5. Configure your environment variables in `.env.local`:
    ```
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
 
-5. Start the development server:
+6. Start the development server:
    ```bash
    pnpm dev
    ```
@@ -75,28 +71,25 @@ pnpm test:e2e
 
 ## 📝 Development Guidelines
 
-- Follow the [Conventional Commits](https://www.conventionalcommits.org/) specification
-- Write tests for new features
-- Update documentation when making changes
-- Follow the established code style and architecture
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes
-4. Run tests: `pnpm test`
-5. Commit your changes: `git commit -m 'feat: add new feature'`
-6. Push to the branch: `git push origin feature/your-feature`
-7. Submit a pull request
+- Follow the established coding standards and architecture
+- Write comprehensive tests for new features
+- Update documentation for any changes
+- Use conventional commit messages
+- Ensure all changes pass the CI/CD pipeline
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This software is proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited. For licensing inquiries, please contact travor@inspiredworkx.com.
 
-## 🙏 Acknowledgments
+## 🔒 Security
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Supabase Documentation](https://supabase.com/docs)
-- [shadcn/ui Components](https://ui.shadcn.com/docs)
-- [Tailwind CSS](https://tailwindcss.com/docs)
+- All code contributions must go through security review
+- Follow secure coding practices
+- Report any security vulnerabilities immediately to the security team
+- Keep all credentials and sensitive information confidential
+
+## 📞 Support
+
+For technical support or inquiries:
+- Email: travor@inspiredworkx.com
+- Internal Documentation: [Link to be added]
